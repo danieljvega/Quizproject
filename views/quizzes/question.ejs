@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <title>QUIZ</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Bienvenidos a mi QUIZ</h1>
+    <h2>JUEGA A LAS PREGUNTAS</h2>
+    <form method="get" action="/check">
+    Pregunta: <%= question %> 
+    <input type="text" name="answer" value="<%=answer%>" placeholder="Responda aqui"/>
+    <input type="submit" value="Comprobar">
+    </form>
+    <p>El portal donde podrá hacer sus propios juegos</p>
+  </body>
+</html>

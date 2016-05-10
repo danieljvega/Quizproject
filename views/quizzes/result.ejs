@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <title>QUIZ</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Bienvenidos a mi QUIZ</h1>
+    <h2>JUEGA A LAS PREGUNTAS</h2>
+    <p> La respuesta <strong> <%= answer %> </strong> es <%= result %> </p>
+    <p> <a href="/question?answer=<%=answer%>"> <%= result ==='Correcta' ? 'Muy bien vuelve a jugar' : 'TRsuerte, prueba otra vez anda' %></a></p>
+  </body>
+</html>
